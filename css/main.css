@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, .link, .btn{ 
+    font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D4D4D4;
+}
+.container{
+    margin: 0 12.5%;
+}
+.site-header{
+    background-color: #222222
+}
+.header-nav{
+    padding-top: 54px;
+    display: flex;
+    align-items: center;
+    column-gap: 6.25%;
+}
+.nav-list, .contact-us{
+    display: flex;
+}
+.nav-list{
+    column-gap: 30px;
+}
+.nav-item{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    opacity: 0.8;
+}
+.contact-us{
+    margin-left: auto;
+    column-gap: 24px;
+}
+.icon{
+    display: block;
+    width: 17px;
+    height: 17px;
+}
+.icon-mail{
+    background: url("../img/mail-icon.png") no-repeat;
+}
+.icon-phone { 
+    background-image: url("../img/phone-icon.png");
+    background-repeat: no-repeat;
+}
+.about-us {
+    background: url("../img/moon-rocket.png") no-repeat top right;
+}
+.about-wrap {
+   width: 25%;
+   padding: 113px 0px 180px ; 
+   min-width: 244px;
+}
+.about-title {
+    font-family: 'Courier New', 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 51px;
+    color: #fff;
+}
+.about-text {
+    margin: 30px 0px 55px;
+}
+.btn {
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 240px;
+    padding: 17px 22px 17px 38px;
+    color: #000;
+}
+.btn::after {
+    content: "";
+    display: block;
+    width: 19px;
+    height: 16px;
+    float: right;
+}
+.btn-yellow{
+    color: #ffcb06;
+}
+.btn::after {
+    background: url("..//img/right-arrow-dark.png") no-repeat; 
+}
+
+.advantages {
+    background: #131313;
+    padding: 85px 0 79px;
+}
+.adventages-list{
+    display: flex;
+    justify-content: space-between;
+}
+.adventage-item{
+    flex-basis: 170px;
+}
+.adventage-item::before{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 34px;
+}
+.adventage-rocket::before{
+    background: url("..//img/advantage-icon-11.png") no-repeat;
+}
+.adventage-food::before{
+    background: url("../img/advantage-icon-21.png") no-repeat;
+}
+.adventage-pilots::before{
+    background: url("../img/advantage-icon-31.png") no-repeat;
+}
+.adventage-rover::before{
+    background: url("../img/advantage-icon-41.png");
+}
+.content{
+    color: #000;
+    padding: 80px 0px 126px;
+    display:flex;
+    flex-direction: column;
+    row-gap: 52px;
+}
+.columns-container {
+    display: flex;
+    column-gap: 80px;
+}
+.lead{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    margin-bottom: 27px;
+}
+p.lead{
+    margin-bottom: 41px;
+}
+.content-paragraf{
+    margin-bottom: 26px;
+}
+
+.recomend-item{
+    margin-left: 23px;
+    margin-bottom: 24px;
+    position: relative;
+    list-style: none;
+}
+.recomend-item::before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%; 
+    background-color: #ffcb06;
+    position: absolute;
+    left: -23px;
+    top: 8px;
+}
+.site-footer{
+    background-color: #131313;
+    padding: 60px 0 88px;
+}
+.footer-columns-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 110px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.authors{
+    color: #555555;
+    width: 160px;
+}
+.footer-menu{
+    display: flex; 
+    column-gap: 80px;  
+}
+.footer-menu-column{
+    width:180px;
+}
+.footer-sobmeny-title{
+    text-transform: uppercase;
+    border-bottom: 1px solid #555555 ;
+    display: block;
+    font-weight: 700;
+    width: 80px;
+    font-size: 14px;
+    margin-bottom: 70px;
+    padding: 12px;
+}
+.footer-sobmen{
+    flex-direction: column;
+    gap: 28px 0px;
+}
+.footer-sobmen .nav-list{
+    color: #888888;
+}
+.footer-right-column{
+    display: flex;
+}
